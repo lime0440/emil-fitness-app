@@ -273,11 +273,60 @@ return(
 {/* ---------------- SLEEP / WORKOUT ---------------- */}
 
 <div style={card}>
-<h2>Sleep & Workout</h2>
-<input type="number" placeholder="Sleep hours" value={sleepHours} onChange={e=>setSleepHours(e.target.value)} style={{width:"100%",padding:"10px",marginBottom:"8px"}}/>
-<label>
-<input type="checkbox" checked={workoutDone} onChange={e=>setWorkoutDone(e.target.checked)} /> Workout Completed
+<h2>Sleep</h2>
+<input
+ type="number"
+ placeholder="Sleep hours"
+ value={sleepHours}
+ onChange={e=>setSleepHours(e.target.value)}
+ style={{width:"100%",padding:"10px",marginBottom:"8px"}}
+/>
+<button
+ onClick={()=>alert("Sleep saved for today")}
+ style={{width:"100%",padding:"10px",background:"#22c55e",border:"none",color:"white",marginBottom:"10px"}}
+>
+Submit Sleep
+</button>
+</div>
+
+<div style={card}>
+<h2>Workout Checklist</h2>
+<p style={{fontSize:"12px",color:"#aaa"}}>Complete at least 1 workout.</p>
+
+<label style={{display:"block",marginBottom:"6px"}}>
+<input type="checkbox" /> Bench Press (3x10)
 </label>
+
+<label style={{display:"block",marginBottom:"6px"}}>
+<input type="checkbox" /> Leg Press (3x12)
+</label>
+
+<label style={{display:"block",marginBottom:"6px"}}>
+<input type="checkbox" /> Seated Row (3x10)
+</label>
+
+<label style={{display:"block",marginBottom:"6px"}}>
+<input type="checkbox" /> Dumbbell Shoulder Press (3x10)
+</label>
+
+<label style={{display:"block",marginBottom:"6px"}}>
+<input type="checkbox" /> Plank (3 sets)
+</label>
+
+<label style={{display:"block",marginBottom:"10px"}}>
+<input type="checkbox" /> 20 Minute Walk
+</label>
+
+<button
+ onClick={()=>setWorkoutDone(true)}
+ style={{width:"100%",padding:"10px",background:"#22c55e",border:"none",color:"white"}}
+>
+Submit Workout
+</button>
+
+{workoutDone && (
+<p style={{marginTop:"10px",color:"#22c55e"}}>Workout submitted today ✅</p>
+)}
 </div>
 
 {/* ---------------- CALORIES ---------------- */}
