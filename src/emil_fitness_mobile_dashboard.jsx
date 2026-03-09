@@ -10,128 +10,128 @@ const storageKey = "emilFitnessPH";
 const weeklyMeals = {
 Monday:{
 breakfast:[
-{name:"Tortang Talong + Rice",calories:420,protein:20,recipe:"Grill eggplant, mash with egg and fry. Serve with small rice portion."},
-{name:"Pandesal + Eggs",calories:380,protein:18,recipe:"2 pandesal with 2 fried or scrambled eggs."}
+{name:"Tortang Talong + Rice",calories:420,protein:20,recipe:"1 large eggplant, 1 egg, 1 tsp oil. Serve with 1/2 cup cooked rice."},
+{name:"Pandesal + Eggs",calories:380,protein:18,recipe:"2 medium pandesal (60g total) with 2 eggs cooked with 1 tsp oil."}
 ],
 snack:[
-{name:"Banana",calories:120,protein:1,recipe:"1 saba or lakatan banana."},
-{name:"Boiled Camote",calories:150,protein:2,recipe:"Boiled sweet potato."}
+{name:"Banana",calories:120,protein:1,recipe:"1 medium banana (lakatan or saba)."},
+{name:"Boiled Camote",calories:150,protein:2,recipe:"1 medium camote about 120g."}
 ],
 lunch:[
-{name:"Chicken Tinola",calories:520,protein:38,recipe:"Chicken soup with ginger, sayote and malunggay."},
-{name:"Bangus + Ensaladang Talong",calories:480,protein:35,recipe:"Grilled bangus with eggplant salad."}
+{name:"Chicken Tinola",calories:520,protein:38,recipe:"150g chicken thigh with soup vegetables. Serve with 3/4 cup cooked rice."},
+{name:"Bangus + Ensaladang Talong",calories:480,protein:35,recipe:"120g grilled bangus, eggplant salad, 1/2 cup cooked rice."}
 ],
 dinner:[
-{name:"Sinigang na Isda",calories:430,protein:32,recipe:"Fish sour soup with kangkong and radish."},
-{name:"Ginisang Gulay",calories:350,protein:12,recipe:"Mixed vegetables sauteed with small pork pieces."}
+{name:"Sinigang na Isda",calories:430,protein:32,recipe:"150g fish in sinigang broth with vegetables, 1/2 cup rice."},
+{name:"Ginisang Gulay",calories:350,protein:12,recipe:"1.5 cups sautéed mixed vegetables with 30g pork bits, 1/2 cup rice."}
 ]
 },
 Tuesday:{
 breakfast:[
-{name:"Tuna + Rice + Egg",calories:420,protein:28,recipe:"Saute canned tuna with onion. Serve with egg and rice."},
-{name:"Oatmeal + Banana",calories:350,protein:14,recipe:"Cook oats with milk and banana."}
+{name:"Tuna + Rice + Egg",calories:420,protein:28,recipe:"1/2 can tuna sautéed with onion, 1 egg, 1/2 cup rice."},
+{name:"Oatmeal + Banana",calories:350,protein:14,recipe:"40g oats cooked with milk and 1/2 banana."}
 ],
 snack:[
-{name:"Boiled Corn",calories:130,protein:4,recipe:"1 boiled corn."},
-{name:"Milk",calories:120,protein:8,recipe:"1 glass milk."}
+{name:"Boiled Corn",calories:130,protein:4,recipe:"1 small boiled corn (100g kernels)."},
+{name:"Milk",calories:120,protein:8,recipe:"1 glass milk (250ml)."}
 ],
 lunch:[
-{name:"Adobong Manok",calories:540,protein:40,recipe:"Chicken adobo with garlic, soy sauce and vinegar."},
-{name:"Ginisang Monggo",calories:480,protein:22,recipe:"Mung bean stew with malunggay."}
+{name:"Adobong Manok",calories:540,protein:40,recipe:"150g chicken adobo with sauce, 3/4 cup rice."},
+{name:"Ginisang Monggo",calories:480,protein:22,recipe:"1.5 cups monggo stew with malunggay and small pork pieces, 1/2 cup rice."}
 ],
 dinner:[
-{name:"Grilled Chicken + Vegetables",calories:450,protein:36,recipe:"Grilled chicken breast with cabbage and carrots."},
-{name:"Fish + Rice + Veg",calories:430,protein:32,recipe:"Simple fried fish with vegetables."}
+{name:"Grilled Chicken + Vegetables",calories:450,protein:36,recipe:"120g grilled chicken breast with 1 cup sautéed vegetables."},
+{name:"Fish + Rice + Veg",calories:430,protein:32,recipe:"120g fried fish, 1 cup vegetables, 1/2 cup rice."}
 ]
 },
 Wednesday:{
 breakfast:[
-{name:"Champorado + Milk",calories:420,protein:12,recipe:"Chocolate rice porridge with milk."},
-{name:"Egg + Tomato + Rice",calories:350,protein:18,recipe:"2 eggs with tomatoes and rice."}
+{name:"Champorado + Milk",calories:420,protein:12,recipe:"1 bowl champorado (1 cup cooked) with 2 tbsp evaporated milk."},
+{name:"Egg + Tomato + Rice",calories:350,protein:18,recipe:"2 eggs sautéed with tomatoes, 1/2 cup rice."}
 ],
 snack:[
-{name:"Peanut Butter Sandwich",calories:210,protein:8,recipe:"Bread with peanut butter."},
-{name:"Banana",calories:120,protein:1,recipe:"Fresh banana."}
+{name:"Peanut Butter Sandwich",calories:210,protein:8,recipe:"2 slices bread with 1 tbsp peanut butter."},
+{name:"Banana",calories:120,protein:1,recipe:"1 medium banana."}
 ],
 lunch:[
-{name:"Pancit Bihon",calories:520,protein:20,recipe:"Rice noodles with vegetables and chicken."},
-{name:"Chicken Tinola",calories:520,protein:38,recipe:"Chicken soup with vegetables."}
+{name:"Pancit Bihon",calories:520,protein:20,recipe:"1 plate pancit bihon about 1.5 cups noodles with vegetables and chicken."},
+{name:"Chicken Tinola",calories:520,protein:38,recipe:"150g chicken tinola with vegetables and 1/2 cup rice."}
 ],
 dinner:[
-{name:"Lentil Soup",calories:400,protein:20,recipe:"Lentils cooked with vegetables."},
-{name:"Grilled Fish + Veg",calories:420,protein:34,recipe:"Grilled fish with sautéed vegetables."}
+{name:"Lentil Soup",calories:400,protein:20,recipe:"1.5 cups lentil soup with vegetables."},
+{name:"Grilled Fish + Veg",calories:420,protein:34,recipe:"120g grilled fish with 1 cup sautéed vegetables."}
 ]
 },
 Thursday:{
 breakfast:[
-{name:"Pandesal + Tuna",calories:360,protein:22,recipe:"Pandesal filled with tuna."},
-{name:"Oatmeal + Peanut Butter",calories:380,protein:16,recipe:"Oats with peanut butter."}
+{name:"Pandesal + Tuna",calories:360,protein:22,recipe:"2 pandesal stuffed with 60g tuna."},
+{name:"Oatmeal + Peanut Butter",calories:380,protein:16,recipe:"40g oats cooked with water and 1 tbsp peanut butter."}
 ],
 snack:[
-{name:"Boiled Camote",calories:150,protein:2,recipe:"Boiled sweet potato."},
-{name:"Milk",calories:120,protein:8,recipe:"Glass of milk."}
+{name:"Boiled Camote",calories:150,protein:2,recipe:"1 medium camote (120g)."},
+{name:"Milk",calories:120,protein:8,recipe:"1 glass milk (250ml)."}
 ],
 lunch:[
-{name:"Bangus + Rice",calories:500,protein:36,recipe:"Fried or grilled bangus."},
-{name:"Chicken Adobo",calories:540,protein:40,recipe:"Chicken adobo."}
+{name:"Bangus + Rice",calories:500,protein:36,recipe:"120g bangus with 3/4 cup rice."},
+{name:"Chicken Adobo",calories:540,protein:40,recipe:"150g chicken adobo with 3/4 cup rice."}
 ],
 dinner:[
-{name:"Ginisang Gulay",calories:350,protein:12,recipe:"Mixed vegetable sauté."},
-{name:"Fish Soup",calories:400,protein:28,recipe:"Light fish soup."}
+{name:"Ginisang Gulay",calories:350,protein:12,recipe:"1.5 cups vegetable sauté."},
+{name:"Fish Soup",calories:400,protein:28,recipe:"150g fish soup with vegetables."}
 ]
 },
 Friday:{
 breakfast:[
-{name:"Egg + Rice",calories:330,protein:16,recipe:"2 eggs with small rice."},
-{name:"Banana Oatmeal",calories:350,protein:14,recipe:"Oats with banana."}
+{name:"Egg + Rice",calories:330,protein:16,recipe:"2 eggs cooked with 1/2 cup rice."},
+{name:"Banana Oatmeal",calories:350,protein:14,recipe:"40g oats cooked with 1/2 banana."}
 ],
 snack:[
-{name:"Banana",calories:120,protein:1,recipe:"Fresh banana."},
-{name:"Boiled Corn",calories:130,protein:4,recipe:"Boiled corn."}
+{name:"Banana",calories:120,protein:1,recipe:"1 medium banana."},
+{name:"Boiled Corn",calories:130,protein:4,recipe:"1 small boiled corn."}
 ],
 lunch:[
-{name:"Chicken Tinola",calories:520,protein:38,recipe:"Chicken soup."},
-{name:"Ginisang Monggo",calories:480,protein:22,recipe:"Mung bean stew."}
+{name:"Chicken Tinola",calories:520,protein:38,recipe:"150g chicken tinola with vegetables and 3/4 cup rice."},
+{name:"Ginisang Monggo",calories:480,protein:22,recipe:"1.5 cups monggo stew with 1/2 cup rice."}
 ],
 dinner:[
-{name:"Grilled Fish",calories:420,protein:34,recipe:"Grilled fish."},
-{name:"Vegetable Stir Fry",calories:360,protein:12,recipe:"Vegetables sautéed."}
+{name:"Grilled Fish",calories:420,protein:34,recipe:"120g grilled fish with vegetables."},
+{name:"Vegetable Stir Fry",calories:360,protein:12,recipe:"1.5 cups vegetable stir fry."}
 ]
 },
 Saturday:{
 breakfast:[
-{name:"Light Oatmeal",calories:300,protein:12,recipe:"Light oatmeal breakfast."},
-{name:"Banana + Milk",calories:250,protein:10,recipe:"Banana with milk."}
+{name:"Light Oatmeal",calories:300,protein:12,recipe:"30g oats cooked with milk."},
+{name:"Banana + Milk",calories:250,protein:10,recipe:"1 banana with 1 glass milk."}
 ],
 snack:[
-{name:"Crackers",calories:140,protein:2,recipe:"Plain crackers."},
-{name:"Fruit",calories:100,protein:1,recipe:"Seasonal fruit."}
+{name:"Crackers",calories:140,protein:2,recipe:"4 plain crackers."},
+{name:"Fruit",calories:100,protein:1,recipe:"1 serving seasonal fruit."}
 ],
 lunch:[
-{name:"Chicken Soup",calories:420,protein:32,recipe:"Light chicken soup."},
-{name:"Fish + Vegetables",calories:420,protein:30,recipe:"Fish with vegetables."}
+{name:"Chicken Soup",calories:420,protein:32,recipe:"150g chicken soup with vegetables."},
+{name:"Fish + Vegetables",calories:420,protein:30,recipe:"120g fish with 1 cup vegetables."}
 ],
 dinner:[
-{name:"Vegetable Soup",calories:320,protein:12,recipe:"Light vegetable soup."},
-{name:"Grilled Chicken",calories:430,protein:36,recipe:"Grilled chicken."}
+{name:"Vegetable Soup",calories:320,protein:12,recipe:"1.5 cups vegetable soup."},
+{name:"Grilled Chicken",calories:430,protein:36,recipe:"120g grilled chicken breast."}
 ]
 },
 Sunday:{
 breakfast:[
-{name:"Egg + Pandesal",calories:360,protein:18,recipe:"Egg with pandesal."},
-{name:"Oatmeal",calories:320,protein:12,recipe:"Plain oatmeal."}
+{name:"Egg + Pandesal",calories:360,protein:18,recipe:"2 eggs with 2 pandesal."},
+{name:"Oatmeal",calories:320,protein:12,recipe:"40g oats cooked with milk."}
 ],
 snack:[
-{name:"Banana",calories:120,protein:1,recipe:"Fresh banana."},
-{name:"Peanut Butter Sandwich",calories:210,protein:8,recipe:"Bread with peanut butter."}
+{name:"Banana",calories:120,protein:1,recipe:"1 banana."},
+{name:"Peanut Butter Sandwich",calories:210,protein:8,recipe:"2 slices bread with 1 tbsp peanut butter."}
 ],
 lunch:[
-{name:"Adobong Manok",calories:540,protein:40,recipe:"Chicken adobo."},
-{name:"Bangus + Rice",calories:500,protein:36,recipe:"Bangus with rice."}
+{name:"Adobong Manok",calories:540,protein:40,recipe:"150g chicken adobo with 3/4 cup rice."},
+{name:"Bangus + Rice",calories:500,protein:36,recipe:"120g bangus with 3/4 cup rice."}
 ],
 dinner:[
-{name:"Sinigang na Isda",calories:430,protein:32,recipe:"Fish sour soup."},
-{name:"Vegetable Stir Fry",calories:360,protein:12,recipe:"Mixed vegetables."}
+{name:"Sinigang na Isda",calories:430,protein:32,recipe:"150g fish sinigang with vegetables."},
+{name:"Vegetable Stir Fry",calories:360,protein:12,recipe:"1.5 cups stir fried vegetables."}
 ]
 }
 };
